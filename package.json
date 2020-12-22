@@ -1,22 +1,25 @@
 {
-  "name": "react-starterpack",
-  "version": "1.0.0",
-  "description": "A react starterpack installer.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MrNossiom/react-starterpack.git"
-  },
-  "keywords": [
-    "react"
-  ],
-  "author": "MrNossiom",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MrNossiom/react-starterpack/issues"
-  },
-  "homepage": "https://github.com/MrNossiom/react-starterpack#readme"
+	"name": "react-starterpack",
+	"version": "1.0.0",
+	"description": "A react starterpack installer.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MrNossiom/react-starterpack.git"
+	},
+	"keywords": [
+		"react"
+	],
+	"author": "MrNossiom",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/MrNossiom/react-starterpack/issues"
+	},
+	"homepage": "https://github.com/MrNossiom/react-starterpack#readme",
+	"devDependencies": {
+		"eslint": "^7.16.0"
+	}
 }

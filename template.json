@@ -1,21 +1,21 @@
 {
-	"package": {
-		"dependencies": {
-			"react-router-dom": "^5.2.0",
-			"styled-components": "^5.2.1",
-			"uuid": "^8.3.2"
-		},
-		"devDependencies": {
-			"eslint": "^7.16.0",
-			"stylelint": "^13.8.0",
-			"stylelint-config-standard": "^20.0.0",
-			"stylelint-config-styled-components": "^0.1.1",
-			"stylelint-processor-styled-components": "^1.10.0"
-		},
-		"scripts": {
-			"lint:js": "eslint .",
-			"lint:js:fix": "eslint . --fix",
-			"lint:css": "stylelint ./src/**/*.jsx"
-		}
-	}
+  "package": {
+    "dependencies": {
+      "react-router-dom": "^5.2.0",
+      "styled-components": "^5.2.1",
+      "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+      "eslint": "^7.16.0",
+      "stylelint": "^13.8.0",
+      "stylelint-config-standard": "^20.0.0",
+      "stylelint-config-styled-components": "^0.1.1",
+      "stylelint-processor-styled-components": "^1.10.0"
+    },
+    "scripts": {
+      "lint:js": "eslint .",
+      "lint:js:fix": "eslint . --fix",
+      "lint:css": "stylelint ./src/**/*.jsx"
+    }
+  }
 }

@@ -1,25 +1,28 @@
 {
-	"name": "react-starterpack",
+	"name": "@mrnossiom/cra-template",
 	"version": "1.0.0",
-	"description": "A react starterpack installer.",
-	"main": "index.js",
-	"scripts": {
-		"start": "node index.js"
+	"description": "A custom React starterpack.",
+	"author": "MrNossiom",
+	"license": "MIT",
+	"keywords": [
+		"react",
+		"create-react-app",
+		"template"
+	],
+	"files": [
+		"template",
+		"template.json",
+		"README.md"
+	],
+	"engines": {
+		"node": ">=10"
 	},
+	"homepage": "https://github.com/MrNossiom/react-starterpack#readme",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/MrNossiom/react-starterpack.git"
 	},
-	"keywords": [
-		"react"
-	],
-	"author": "MrNossiom",
-	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/MrNossiom/react-starterpack/issues"
-	},
-	"homepage": "https://github.com/MrNossiom/react-starterpack#readme",
-	"devDependencies": {
-		"eslint": "^7.16.0"
 	}
 }

@@ -1,8 +1,10 @@
 {
 	"package": {
 		"dependencies": {
+			"prop-types": "^15.7.2",
 			"react-router-dom": "^5.2.0",
 			"styled-components": "^5.2.1",
+			"styled-normalize": "^8.0.7",
 			"uuid": "^8.3.2"
 		},
 		"devDependencies": {
@@ -10,12 +12,17 @@
 			"stylelint": "^13.8.0",
 			"stylelint-config-standard": "^20.0.0",
 			"stylelint-config-styled-components": "^0.1.1",
-			"stylelint-processor-styled-components": "^1.10.0"
+			"stylelint-processor-styled-components": "^1.10.0",
+			"typescript": "^4.1.3",
+			"webpack-bundle-analyzer": "^4.3.0"
 		},
 		"scripts": {
+			"analyze": "node misc/analyzer/webpack.js",
+			"cleanup": "rm -rdf node_modules/ && rm -rdf build/ && git secret hide -d",
+			"lint:css": "stylelint ./src/**/*.jsx",
 			"lint:js": "eslint .",
 			"lint:js:fix": "eslint . --fix",
-			"lint:css": "stylelint ./src/**/*.jsx"
+			"setup": "npm i && git secret reveal"
 		}
 	}
 }

@@ -1,0 +1,5 @@
+# Show changes as binary package-lock.json
+package-lock.json binary
+
+# Exclude config and misc files from language stats
+public/**/* linguist-vendored

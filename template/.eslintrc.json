@@ -1,8 +1,10 @@
 {
-	"extends": [
-		"react-app",
-		"react-app/jest"
-	],
+	"env": {
+		"browser": true,
+		"es6": true,
+		"jest": true
+	},
+	"extends": ["react-app", "react-app/jest", "eslint:recommended"],
 	"rules": {
 		"brace-style": [
 			"warn",
@@ -11,18 +13,11 @@
 				"allowSingleLine": true
 			}
 		],
-		"comma-dangle": [
-			"warn",
-			"always-multiline"
-		],
+		"comma-dangle": ["warn", "always-multiline"],
 		"comma-spacing": "warn",
 		"comma-style": "warn",
 		"prefer-template": "warn",
-		"curly": [
-			"warn",
-			"multi-line",
-			"consistent"
-		],
+		"curly": ["warn", "multi-line", "consistent"],
 		"handle-callback-err": "warn",
 		"indent": [
 			"warn",
@@ -59,29 +54,15 @@
 		"no-shadow": [
 			"warn",
 			{
-				"allow": [
-					"err",
-					"resolve",
-					"reject"
-				]
+				"allow": ["err", "resolve", "reject"]
 			}
 		],
-		"no-trailing-spaces": [
-			"warn"
-		],
+		"no-trailing-spaces": ["warn"],
 		"no-var": "warn",
-		"object-curly-spacing": [
-			"warn",
-			"always"
-		],
+		"object-curly-spacing": ["warn", "always"],
 		"prefer-const": "warn",
-		"quotes": [
-			"warn",
-			"single"
-		],
-		"semi": [
-			"warn"
-		],
+		"quotes": ["warn", "single"],
+		"semi": ["warn"],
 		"space-before-blocks": "warn",
 		"space-before-function-paren": [
 			"warn",
@@ -101,10 +82,7 @@
 		"array-bracket-spacing": "warn",
 		"array-callback-return": "warn",
 		"arrow-body-style": "warn",
-		"arrow-parens": [
-			"warn",
-			"always"
-		],
+		"arrow-parens": ["warn", "always"],
 		"arrow-spacing": [
 			"warn",
 			{
@@ -118,22 +96,13 @@
 		"camelcase": "warn",
 		"capitalized-comments": "warn",
 		"complexity": "warn",
-		"computed-property-spacing": [
-			"warn",
-			"never"
-		],
+		"computed-property-spacing": ["warn", "never"],
 		"consistent-this": "warn",
 		"default-case": "warn",
 		"default-param-last": "warn",
-		"dot-location": [
-			"warn",
-			"property"
-		],
+		"dot-location": ["warn", "property"],
 		"dot-notation": "warn",
-		"eol-last": [
-			"warn",
-			"never"
-		],
+		"eol-last": ["warn", "never"],
 		"func-call-spacing": "warn",
 		"func-name-matching": "warn",
 		"func-names": "warn",
@@ -150,9 +119,12 @@
 		"grouped-accessor-pairs": "warn",
 		"guard-for-in": "warn",
 		"id-blacklist": "warn",
-		"id-length": ["error", {
-			"exceptionPatterns": ["E|S", "[x-z]"]
-		}],
+		"id-length": [
+			"error",
+			{
+				"exceptionPatterns": ["E|S", "[x-z]"]
+			}
+		],
 		"id-match": "warn",
 		"implicit-arrow-linebreak": "warn",
 		"init-declarations": "off",
@@ -166,10 +138,7 @@
 			}
 		],
 		"line-comment-position": "warn",
-		"linebreak-style": [
-			"warn",
-			"unix"
-		],
+		"linebreak-style": ["warn", "unix"],
 		"lines-around-directive": "warn",
 		"lines-between-class-members": "warn",
 		"max-classes-per-file": "warn",
@@ -196,10 +165,7 @@
 		],
 		"multiline-comment-style": "warn",
 		"new-cap": "warn",
-		"newline-after-var": [
-			"warn",
-			"always"
-		],
+		"newline-after-var": ["warn", "always"],
 		"newline-before-return": "warn",
 		"no-alert": "warn",
 		"no-array-constructor": "warn",
@@ -290,10 +256,7 @@
 		"one-var-declaration-per-line": "warn",
 		"operator-assignment": "warn",
 		"operator-linebreak": "warn",
-		"padded-blocks": [
-			"warn",
-			"never"
-		],
+		"padded-blocks": ["warn", "never"],
 		"padding-line-between-statements": "warn",
 		"prefer-arrow-callback": "warn",
 		"prefer-destructuring": "warn",
@@ -313,21 +276,12 @@
 		"require-unicode-regexp": "warn",
 		"rest-spread-spacing": "warn",
 		"semi-spacing": "warn",
-		"semi-style": [
-			"warn",
-			"last"
-		],
+		"semi-style": ["warn", "last"],
 		"switch-colon-spacing": "warn",
 		"symbol-description": "warn",
-		"template-curly-spacing": [
-			"warn",
-			"never"
-		],
+		"template-curly-spacing": ["warn", "never"],
 		"template-tag-spacing": "warn",
-		"unicode-bom": [
-			"warn",
-			"never"
-		],
+		"unicode-bom": ["warn", "never"],
 		"valid-jsdoc": "warn",
 		"vars-on-top": "warn",
 		"wrap-iife": "warn",

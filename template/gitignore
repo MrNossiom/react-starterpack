@@ -1,15 +1,16 @@
 # Dependencies
 /node_modules
 
-# Testing
-/coverage
-
 # Production
 /build
+
+# Misc
+.DS_Store
 
 # Cache
 .eslintcache
 .netlify
+.vercel
 
 # Logs
 npm-debug.log*

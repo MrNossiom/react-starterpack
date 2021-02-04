@@ -1,0 +1,9 @@
+{
+	"$schema": "http://json.schemastore.org/huskyrc",
+	"hooks": {
+		"pre-commit": "lint-staged",
+		"commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+		"post-commit": "react-scripts test --watchAll=false && C1=1 npm run build"
+	},
+	"skipCI": true
+}

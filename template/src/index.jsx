@@ -17,10 +17,10 @@ import { Normalize } from 'styled-normalize';
 render(
 	<StrictMode>
 		<BrowserRouter>
-				<Normalize />
-				<GlobalStyle />
-				<App />
+			<Normalize />
+			<GlobalStyle />
+			<App />
 		</BrowserRouter>
 	</StrictMode>,
-	document.getElementById('root'),
+	document.getElementById('root')
 );

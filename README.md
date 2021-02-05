@@ -8,7 +8,7 @@ Use this template with create-react-app:
 
 or
 
-> `yarn init react-app my-app --template @MrNossiom`
+> `yarn init react-app my-app --template @mrnossiom`
 
 To test this app:
 
